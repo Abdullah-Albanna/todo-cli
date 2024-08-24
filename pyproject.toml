@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "todo-cli"
+version = "0.1.0"
+description = "A simple task tracker program in python"
+authors = ["Abdullah-Albanna <albannaa78@gmail.com>"]
+readme = "README.md"
+packages = [{include = "todo_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
